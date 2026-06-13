@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>TechRise Academy | Learn Today. Build Tomorrow.</title>
+    <title>TrackWise | Track Money. Master Your Future.</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -19,26 +18,58 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="navbar">
-        <div class="logo">
+    <header class="header" id="header">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
           <img src="./images/trackwise-logo.png" alt="TrackWise Logo" />
-        </div>
+        </a>
 
-        <nav class="nav-menu">
-          <ul>
-            <li><a href="#home">Features</a></li>
-            <li><a href="#home">How it Works</a></li>
-            <li><a href="#home">Company</a></li>
+        <nav class="navbar" aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li>
+              <a href="#features"
+                >Features <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#structure"
+                >How it Works <i class="fa-solid fa-chevron-down"></i
+              ></a>
+            </li>
+            <li><a href="#about-us">Company</a></li>
           </ul>
         </nav>
+
+        <!-- Actions Buttons -->
+        <div class="nav-actions">
+          <a href="#" class="login-btn">Login</a>
+
+          <a href="#" class="signup-btn">Sign up</a>
+        </div>
       </div>
-    </div>
-    <div class="hero"></div>
-    <div class="features"></div>
-    <div class="how-it-works"></div>
-    <div class="testimonials"></div>
-    <div class="faqs"></div>
-    <footer></footer>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container hero-conatainer">
+          <div class="hero-content">
+            <h1>Track Your Money. Master Your Future.</h1>
+            <p>
+              Track Wise helps you stay ontop of your income, control your daily
+              spending, budget and achieve your financial goals.
+            </p>
+          </div>
+
+          <div class="hero-image">
+            <a href="./images/avatar1.png"></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="features"></section>
+      <section class="structure" id="structure"></section>
+      <section class="testimonials" id="testimonials"></section>
+      <section class="faqs" id="faqs"></section>
+    </main>
   </body>
 </html>

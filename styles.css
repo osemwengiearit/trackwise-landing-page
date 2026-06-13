@@ -9,9 +9,95 @@
 :root {
   --primary-color: #cbffd0;
   --secondary-color: #26a69a;
-  --accent-color: #38bdf8;
-  --light-color: #f1f9f8 --text-color: #1e293b;
-  --white: #ffffff;
+  --light-color: #f1f9f8;
+  --text: #000000;
   --heading-font: "Poppins", sans-serif;
   --body-font: "Inter", sans-serif;
+  --transition: 0.3s ease;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--light-color);
+  color: var(--text);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(248, 251, 249, 0.9);
+  border-bottom: 1px solid var(--light-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+}
+
+.logo img {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
+.navbar {
+  justify-self: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.nav-links i {
+  font-size: 0.75rem;
+}
+
+.nav-actions {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-actions a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-btn {
+  color: var(--text);
+  background: var(--primary-color);
+  border-radius: 12px;
+  padding: 0.4rem 1.4rem;
+}
+
+.signup-btn {
+  color: var(--text);
+  background: var(--secondary-color);
+  border-radius: 12px;
+  padding: 0.4rem 1.4rem;
 }
