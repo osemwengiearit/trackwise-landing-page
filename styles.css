@@ -101,3 +101,66 @@ html {
   border-radius: 12px;
   padding: 0.4rem 1.4rem;
 }
+
+/* Hero section */
+
+.hero {
+  padding: 5rem 0;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 550px;
+  display: block;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.btn-primary span,
+.btn-secondary span {
+  font-size: 1rem;
+  font-weight: 600;
+}
