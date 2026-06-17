@@ -336,3 +336,78 @@ html {
 .card-teal .feature-icon {
   color: var(--bg-mint-light);
 }
+
+.how-it-works {
+  padding: 6rem 0 0 0;
+  background-color: var(--bg-white);
+  text-align: center;
+  overflow: hidden;
+}
+
+.workflow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.workflow-title {
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 3.5rem;
+}
+
+.workflow-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8rem;
+  row-gap: 2rem;
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.workflow-pill {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.85rem 2rem;
+  border-radius: 50px;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.workflow-grid .workflow-pill:nth-child(1),
+.workflow-grid .workflow-pill:nth-child(2) {
+  background-color: var(--bg-mint-soft);
+  color: var(--text-dark);
+}
+
+.workflow-grid .workflow-pill:nth-child(3),
+.workflow-grid .workflow-pill:nth-child(4) {
+  background-color: var(--primary-teal);
+  color: var(--bg-white);
+}
+
+.workflow-showcase {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 580px;
+  background-color: var(--bg-mint-soft);
+  border-radius: 180px 180px 0 0;
+  padding: 4rem 2rem 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.workflow-showcase img {
+  width: 75%;
+  max-width: 270px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  transform: translateY(10px);
+}
