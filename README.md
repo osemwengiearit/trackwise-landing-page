@@ -22,7 +22,7 @@ This project is a responsive landing page built from a provided Figma design.
 
 ## Live Demo
 
-[Hosted Link Here]
+trackwise-landing-page.vercel.app
 
 ## Author
 
