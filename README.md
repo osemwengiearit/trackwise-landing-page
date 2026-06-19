@@ -20,6 +20,10 @@ This project is a responsive landing page built from a provided Figma design.
 - FAQ section
 - Footer
 
+## Live Demo
+
+[Hosted Link Here]
+
 ## Author
 
 Arit Bright Osemwengie
