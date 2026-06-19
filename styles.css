@@ -658,3 +658,142 @@ html {
   text-decoration: none;
   font-weight: 500;
 }
+
+@media (max-width: 1024px) {
+  .hero-container,
+  .features-container {
+    gap: 2rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .features-section-title {
+    font-size: 2rem;
+  }
+
+  .testimony-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero-container,
+  .features-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content p {
+    margin: 0 auto 2rem;
+  }
+
+  .hero-btn {
+    justify-content: center;
+  }
+
+  .hero-image {
+    min-height: auto;
+  }
+
+  .hero-phone-mockup {
+    width: 28%;
+    left: 15%;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .workflow-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimony-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .hero {
+    padding: 3rem 0;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .store-btn {
+    min-width: 160px;
+    padding: 10px 14px;
+  }
+
+  .store-btn i {
+    font-size: 1.5rem;
+  }
+
+  .features-section-title,
+  .workflow-title,
+  .testimony-title,
+  .faq-container h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .features-bg-curved {
+    min-height: 400px;
+  }
+
+  .features-bg-curved img {
+    max-width: 280px;
+  }
+
+  .footer-store-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero-phone-mockup {
+    width: 35%;
+    left: 10%;
+  }
+
+  .store-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .faq-item {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+}
