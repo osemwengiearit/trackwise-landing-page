@@ -569,7 +569,8 @@ html {
 }
 
 .footer-logo img {
-  width: 70px;
+  width: 110px;
+  height: auto;
   margin-bottom: 1rem;
 }
 
